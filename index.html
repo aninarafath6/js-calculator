@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>simple javascript calculater project</title>
+</head>
+
+<section>
+    <div class="main">
+        <div class="inp">
+            <input id="inp" type="text">
+        </div>
+        <div class="btn">
+            <div class="buttons left">
+                <button onclick="cle()">clear</button>
+            </div>
+            <div class="buttons">
+                <button onclick="calc(7)">7</button>
+                <button onclick="calc(8)">8</button>
+                <button onclick="calc(9)">9</button>
+                <button class="sp" onclick="calc('/')">/</button>
+            </div>
+            <div class="buttons">
+                <button onclick="calc(4)">4</button>
+                <button onclick="calc(5)">5</button>
+                <button onclick="calc(6)">6</button>
+                <button class="sp" onclick="calc('*')">x</button>
+            </div>
+            <div class="buttons">
+                <button onclick="calc(1)">1</button>
+                <button onclick="calc(2)">2</button>
+                <button onclick="calc(3)">3</button>
+                <button class="sp" onclick="calc('-')">/</button>
+            </div>
+            <div class="buttons">
+                <button onclick="calc('.')">.</button>
+                <button onclick="calc(0)">0</button>
+                <button class="sp" onclick="eqa()">=</button>
+                <button class="sp" onclick="calc('+')">+</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<body>
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
